@@ -1,0 +1,14 @@
+{
+  "name": "ramen-rater-backend",
+  "version": "0.0.1",
+  "description": "backend for my ramer rater app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Alexandre Moreira <brainmunchers@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
