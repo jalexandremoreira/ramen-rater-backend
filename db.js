@@ -1,33 +1,42 @@
 const bowls = [
   {
-    title: 'Vegan Miso Ramen',
     author: 'Alex',
+    category: '1',
+    id: '1',
     image: 'vegan-miso',
     rating: 0,
+    slug: 'vegan-miso',
+    title: 'Vegan Miso Ramen',
   },
   {
-    title: 'Vegan Tonkotsu Ramem',
     author: 'Paul',
+    category: '2',
+    id: '2',
     image: 'vegan-tonkotsu',
     rating: 0,
+    slug: 'vegan-tonkotsu',
+    title: 'Vegan Tonkotsu Ramem',
   },
 ];
 
 const categories = [
   {
-    title: 'creamy',
+    id: '1',
     image: 'creamy-category',
-    id: 1,
+    slug: 'creamy',
+    title: 'Creamy',
   },
   {
-    title: 'spicy',
+    id: '2',
     image: 'spicy-category',
-    id: 2,
+    slug: 'spicy',
+    title: 'Spicy',
   },
   {
-    title: 'mushrooms',
-    image: 'mushrooms-category',
     id: 3,
+    image: 'mushrooms-category',
+    slug: 'mushrooms',
+    title: 'Mushrooms',
   },
 ];
 
