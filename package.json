@@ -3,12 +3,18 @@
   "version": "0.0.1",
   "description": "backend for my ramer rater app",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/jalexandremoreira/ramen-rater-backend",
+    "type": "git"
+  },
   "scripts": {
     "start": "nodemon index.js"
   },
   "author": "Alexandre Moreira <brainmunchers@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "apollo-server": "^3.3.0",
+    "graphql": "^15.5.2",
     "nodemon": "^2.0.12"
   }
 }
