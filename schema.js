@@ -3,7 +3,8 @@ const { gql } = require('apollo-server');
 const typeDefs = gql`
   type Bowl {
     author: String!
-    category: Category
+    category: String
+    description: String!
     id: ID!
     image: String!
     rating: Int!
@@ -24,6 +25,18 @@ const typeDefs = gql`
     bowl(slug: String!): Bowl
     categories: [Category!]!
     category(slug: String!): Category
+  }
+
+  type Mutation {
+    addBowl(
+      author: String!
+      category: String
+      description: String!
+      image: String!
+      rating: Int!
+      slug: String!
+      title: String!
+    ): Bowl
   }
 `;
 
